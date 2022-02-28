@@ -38,6 +38,7 @@ void loop()
 
   //  reading potentiometer
   int pot = analogRead(potpin);
+  Serial.print("Pot Val : ");
   Serial.println(pot);
 
   //  check if wifi is still connected
